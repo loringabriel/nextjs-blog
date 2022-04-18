@@ -41,8 +41,8 @@ Depending on the specific use case, preparing a web page can be categorized in:
 | Strategy    | Pros                  | Cons
 | ----------- | --------------------- | ----------------------------------- |
 | Build time  | served instantly      | bad for dynamic data/not up-to-date |
-| Server-side | fast than the client-side | server will return a webpage only when all API/queries are done|
-| Client-side | fast interactive apps | big JS bundle can affect performance|
+| Server side | fast than the client side | server will return a webpage only when all API/queries are done|
+| Client side | fast interactive apps | big JS bundle can affect performance|
 
 Depending on the use case, the cons highlighted above can be categorized as "problems" only if specific criteria will apply.
 
