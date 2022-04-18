@@ -25,3 +25,35 @@ img {
   max-width: 100%;
   display: block;
 }
+
+td,
+th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-size: 0.8rem;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: left;
+  background-color: #a3a3a35a;
+  /* color: white; */
+}
+
+table {
+  border-spacing: 0;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  margin: auto;
+}
+
+code {
+  background-color: rgb(227, 227, 227);
+  padding: 4px 8px;
+  border-radius: 4px;
+}
