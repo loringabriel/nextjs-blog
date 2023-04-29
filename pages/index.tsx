@@ -19,13 +19,13 @@ export default function Home({
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
-        <script
+        {/* <script
           id="Cookiebot"
           data-culture="EN"
           src="https://consent.cookiebot.com/uc.js"
           data-cbid="079feda4-1474-4412-b9f6-4e9796d9b28b"
           type="text/javascript"
-        ></script>
+        ></script> */}
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
