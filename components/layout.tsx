@@ -1,11 +1,11 @@
-import Head from "next/head";
-import Image from "next/image";
-import styles from "./layout.module.css";
-import utilStyles from "../styles/utils.module.css";
-import Link from "next/link";
+import Head from 'next/head';
+import Image from 'next/image';
+import styles from './layout.module.css';
+import utilStyles from '../styles/utils.module.css';
+import Link from 'next/link';
 
-const name = "Lorin Muller";
-export const siteTitle = "Lorin Muller Blog";
+const name = 'Lorin Muller';
+export const siteTitle = 'Lorin Muller Blog';
 
 export default function Layout({
   children,
@@ -17,6 +17,10 @@ export default function Layout({
   return (
     <div className={styles.container}>
       <Head>
+        <script
+          async
+          src="https://chimpstatic.com/mcjs-connected/js/users/c8bd633a616222dbc7a990d8e/b254fb88c5d1d95a11cb821fb.js"
+        ></script>
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"

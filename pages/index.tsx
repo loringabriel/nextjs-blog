@@ -19,20 +19,6 @@ export default function Home({
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
-        {/* <script
-          id="Cookiebot"
-          data-culture="EN"
-          src="https://consent.cookiebot.com/uc.js"
-          data-cbid="079feda4-1474-4412-b9f6-4e9796d9b28b"
-          type="text/javascript"
-        ></script> */}
-        <script
-type="text/javascript"
-                        dangerouslySetInnerHTML={{
-                            __html: `!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/c8bd633a616222dbc7a990d8e/b254fb88c5d1d95a11cb821fb.js");`,
-                        }}
-                    />
-     
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
