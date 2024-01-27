@@ -17,10 +17,10 @@ export default function Layout({
   return (
     <div className={styles.container}>
       <Head>
-        <script
+{/*         <script
           async
           src="https://chimpstatic.com/mcjs-connected/js/users/c8bd633a616222dbc7a990d8e/b254fb88c5d1d95a11cb821fb.js"
-        ></script>
+        ></script> */}
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
