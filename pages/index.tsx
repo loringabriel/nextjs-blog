@@ -23,7 +23,7 @@ export default function Home({
       <section className={utilStyles.headingMd}>
         <p>
           Full-Stack Software Engineer mostly interested in Frontend and Cloud
-          based technologies.
+          based technologies. 
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
