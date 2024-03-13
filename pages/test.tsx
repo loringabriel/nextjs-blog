@@ -22,7 +22,7 @@ export default function Page (){
   useEffect(()=>{
   
 
-    window.addEventListener('keydown', fn)
+    document.body.addEventListener('keydown', fn)
 
     // return window.removeEventListener('keydown', fn)
   },[fn])
